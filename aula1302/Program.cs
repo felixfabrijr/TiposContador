@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Serialization.Formatters;
 
 namespace aula1302
 {
@@ -7,12 +8,12 @@ namespace aula1302
         // Tipos Contador
         static void Main(string[] args)
         {
-            int contador = 0;
-            do
-            {
-                Console.WriteLine($" O contador esta em: {contador}");
-                contador++;
-            } while( contador < 10 );
+            //int contador = 0;
+            //do
+            //{
+            //    Console.WriteLine($" O contador esta em: {contador}");
+            //    contador++;
+            //} while( contador < 10 );
 
 
             //int contador = 0;
@@ -28,7 +29,10 @@ namespace aula1302
             //    Console.WriteLine($"contador esta {contador}");
             //}
 
-
+            for (int i = 0; i < 37; i++)
+            { 
+                Console.WriteLine($"Contador esta em: {i}");
+            }
         }
     }
 }
